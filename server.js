@@ -12,8 +12,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 // ─── Config ───────────────────────────────────────────────────────────────────
-const GENESYSPAY_PUBLIC_KEY  = "pk_3AIkEaf4n8tbKNuoNaGqv9XTFhgUagZp";
-const GENESYSPAY_PRIVATE_KEY = "sk_Ksj2achOooIhBZcN2qRvbu8aFNz6tW8b6fkePDD6cVNl2tCDTGzdDm5lIdeBFQLA";
+const GENESYSPAY_PUBLIC_KEY  = "pk_W9slgDMTeVWTkAaf5FMPE9U1g8YJOl8O";
+const GENESYSPAY_PRIVATE_KEY = "sk_XwQlJ6LZqXVqRpdzdknzqLEZ8vFoMCGSKnsQ6PATa5u7iCAQYU8GaiYsSBprUgKE";
 const GENESYSPAY_BASE_URL = "https://genesyspay.com/api/v2";
 const CALLBACK_URL = process.env.CALLBACK_URL || "https://yourserver.com/webhook";
 
